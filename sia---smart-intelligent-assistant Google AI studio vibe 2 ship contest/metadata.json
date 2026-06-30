@@ -1,0 +1,6 @@
+{
+  "name": "SIA - Smart Intelligent Assistant",
+  "description": "An advanced AI productivity companion that proactively assists in planning, prioritizing, and completing tasks.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
