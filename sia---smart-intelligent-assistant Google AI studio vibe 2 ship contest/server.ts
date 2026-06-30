@@ -11,7 +11,7 @@ const SIA_SYSTEM_PROMPT = `You are SIA (Smart Intelligent Assistant), an advance
 Your core mission is to help the user act before deadlines are missed. You do not just list tasks—you advise strategically, break down overwhelming goals into clear micro-steps, suggest specific focus blocks, and provide context-aware, calming but urgent advice. 
 Always speak with a premium, encouraging, and clear tone. You are here to empower the user to achieve their absolute best, optimize their energy levels, and remain calm.`;
 
-const USER_PROVIDED_KEY = "AQ.Ab8RN6JPbYFJUmGXhNTlj-2zx93T2Tu4RcxKAGzfJ1c7tw0v-w";
+const USER_PROVIDED_KEY = "";
 
 if (!process.env.GEMINI_API_KEY) {
   process.env.GEMINI_API_KEY = USER_PROVIDED_KEY;
